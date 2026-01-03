@@ -70,7 +70,7 @@ experience:
       - category: Kubernetes & Cloud
         description:  Managed GCP GKE clusters across Dev and Production environments. Optimized Node Pool configurations and autoscaling strategies, resulting in a 30% reduction in cloud infrastructure costs. 
       - category: GitOps Transition
-        description: Reafctoring deploying process with coding new Hlem CHarts and impelment ArgoCd for Deployment instaed of Kubect apply.Modernized the deployment engine by replacing legacy kubectl apply scripts with ArgoCD. Developed modular Helm charts to standardize application packaging and improve release reliability
+        description: Modernized the deployment engine by replacing legacy kubectl apply scripts with ArgoCD. Developed modular Helm charts to standardize application packaging and improve release reliability
       - category: CI/CD
         description:  Engineered high-performance workflows that reduced build times by 50%. Achieved this through Docker image multi-stage build optimizations, advanced caching strategies, and logic refactoring.
       - category: Infrastructure as Code
