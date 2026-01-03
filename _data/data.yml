@@ -31,17 +31,19 @@ certificates:
    - hobby: CKA
    - hobby: HashiCorp Terraform Associate
    - hobby: GitOps at Scale certificate
+   - hobby: Github Action
 
 skills:
   - category: Cloud
     skill:
+      - GCP
       - AWS
-      - Azure
 
   - category: DevOps Tools
     skill:
       - Docker
       - Kubernetes
+      - Prefect
       - Azure Devops
       - Jenkins
       - ArgoCD
@@ -61,20 +63,25 @@ profile: |
 # Experience
 experience:
   - role: DevOps Engineer
-    time: 2022-present
-    company: Develeap
-    summary: Leading multiple internal projects, managing Kubernetes clusters, and implementing GitOps methodologies.
+    time: 02/25-present
+    company: Flexor
+    summary: Streamlined deployment lifecycles by implementing GitOps methodologies and refactoring CI/CD pipelines to enhance scalability, reduce costs, and accelerate delivery.
     achievements:
-      - category: Kubernetes
-        description:  Managed internal EKS clusters, ensuring scalability and resilience.
-      - category: ArgoCD
-        description: Deployed multiple applications using GitOps methodologies, improving deployment efficiency.
-      - category: Terraform
-        description:  Designed a dynamic EKS cluster with Helm charts, ensuring fully automated infrastructure provisioning.
-    technologies: Terraform,  Kubernetes, ArgoCD, Helm
+      - category: Kubernetes & Cloud
+        description:  Managed GCP GKE clusters across Dev and Production environments. Optimized Node Pool configurations and autoscaling strategies, resulting in a 30% reduction in cloud infrastructure costs. 
+      - category: GitOps Transition
+        description: Reafctoring deploying process with coding new Hlem CHarts and impelment ArgoCd for Deployment instaed of Kubect apply.Modernized the deployment engine by replacing legacy kubectl apply scripts with ArgoCD. Developed modular Helm charts to standardize application packaging and improve release reliability
+      - category: CI/CD
+        description:  Engineered high-performance workflows that reduced build times by 50%. Achieved this through Docker image multi-stage build optimizations, advanced caching strategies, and logic refactoring.
+      - category: Infrastructure as Code
+        description: Led a full-scale refactor of environment provisioning using Terraform
+      - category: System Architecture
+        description: Redesigned deployment for Prefect flows and modal containers. Introduced a dedicated Integration environment to facilitate rigorous pre-merge testing, ensuring higher code quality in the main branch.
+      
+    technologies: Terraform, Kubernetes, ArgoCD, Helm, Prefect, Modal, GCP
     
   - role: DevOps Engineer
-    time: 2024-2025
+    time: 07/24-01/25
     company: RRSystem
     summary: Designed and implemented a robust DevOps infrastructure for a .NET project hosted on an IIS server.
     achievements:
@@ -89,9 +96,9 @@ experience:
     technologies: Docker Compose, Powershell, .DotNet, Bash, Azure DevOps, Docker
 
   - role: DevOps Engineer
-    time: 2022-2024
+    time: 10/22-07/24
     company: XwinSys
-    summary: Developed a comprehensive DevOps infrastructure that included several CI/CD pipelines for automating build, test, and deployment processes.
+    summary: Developed a comprehensive DevOps infrastructure that included several CI/CD pipelines for automating build, test, and deployment processes in OnPrem environmnet
     achievements:
       - category: CI/CD Implementation
         description: Set up CI/CD pipelines with Docker, streamlining deployments.
