@@ -49,9 +49,9 @@ skills:
       - Terraform
       - Helm
       - Github Action
+      - Modal
+      - Cloud Run
       
-  
-  
   - category: Script Language
     skill:
       - Python
