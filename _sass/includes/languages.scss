@@ -2,6 +2,7 @@
     margin-bottom: 20px;
     .title {
         @include sub-header;
+        margin-top: 20px;
     }
     .idiom {
         @include body-text;

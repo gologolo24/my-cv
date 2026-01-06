@@ -4,6 +4,7 @@
     flex-direction: column;
     .title {
         @include sub-header;
+        margin-top: 20px;
     }
     .certificate {
         @include body-text;
