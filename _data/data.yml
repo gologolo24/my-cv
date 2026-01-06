@@ -50,8 +50,7 @@ skills:
       
   - category: Script Language
     skill:
-      - Python
-      - Bash
+      - Python Bash
 
 # Profile
 profile: | 
@@ -88,8 +87,6 @@ experience:
         description:  Dockerized all microservices, ensuring scalability and consistent development environments.
       - category: Git Strategy
         description: Implemented a semantic versioning strategy in Git to improve release management.
-      - category: Leadership
-        description: Led the DevOps team, overseeing infrastructure setup and process automation.
     technologies: Docker Compose, Powershell, .DotNet, Bash, Azure DevOps, Docker
 
   - role: DevOps Engineer
