@@ -25,8 +25,8 @@ education:
     university: Jerusalem College of Technology
     
 certificates:
-   - hobby: AWS SAP
-   - hobby: AWS SAA
+   - hobby: AWS SAP and SAA
+   - hobby: GCP Cloud Engineer
    - hobby: CKA
    - hobby: HashiCorp Terraform Associate
    - hobby: GitOps at Scale certificate
@@ -43,14 +43,10 @@ skills:
       - Docker
       - Kubernetes
       - Prefect
-      - Azure Devops
-      - Jenkins
+      - Github Action, Azure Devops, Jenkins
       - ArgoCD
       - Terraform
       - Helm
-      - Github Action
-      - Modal
-      - Cloud Run
       
   - category: Script Language
     skill:
@@ -59,7 +55,7 @@ skills:
 
 # Profile
 profile: | 
-   A collaborative and innovative DevOps Engineer dedicated to building stable, efficient systems that empower development teams. I specialize in optimizing cloud infrastructure and CI/CD pipelines through smart automation, GitOps methodologies, and creative problem-solving. Driven by impact and simplicity, I focus on delivering scalable, secure solutions while fostering a team environment that accelerates delivery and streamlines the developer experience.
+   Innovative DevOps Engineer dedicated to optimizing cloud infrastructure and CI/CD pipelines. I leverage GitOps and smart automation to simplify delivery, empower development teams, and build scalable, secure solutions.
 
 # Experience
 experience:
