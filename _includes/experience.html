@@ -11,7 +11,7 @@
                 </div>
                 <span class="time">{{ exp.time }}</span>
             </div>
-            <p class="summary">{{ exp.summary }}</p>
+            {% if exp.summary %}<p class="summary">{{ exp.summary }}</p>{% endif %}
             {% if exp.achievements %}
                 <ul class="achievements">
                 {% for achievement in exp.achievements %}
@@ -25,7 +25,34 @@
                 {% endfor %}
                 </ul>
             {% endif %}
-            <p class="technologies"><strong>Technologies:</strong> {{ exp.technologies }}</p>
+            {% for customer in exp.customers %}
+                <div class="customer">
+                    <div class="customer-header">
+                        <h3 class="customer-name"><span class="customer-label">Customer</span> {{ customer.name }}</h3>
+                        {% if customer.time %}<span class="time">{{ customer.time }}</span>{% endif %}
+                    </div>
+                    {% if customer.summary %}<p class="summary">{{ customer.summary }}</p>{% endif %}
+                    {% if customer.achievements %}
+                        <ul class="achievements">
+                        {% for achievement in customer.achievements %}
+                            <li>
+                                {% if achievement.category %}
+                                    <strong>{{ achievement.category }}:</strong> {{ achievement.description }}
+                                {% else %}
+                                    {{ achievement.description }}
+                                {% endif %}
+                            </li>
+                        {% endfor %}
+                        </ul>
+                    {% endif %}
+                    {% if customer.technologies %}
+                        <p class="technologies"><strong>Technologies:</strong> {{ customer.technologies }}</p>
+                    {% endif %}
+                </div>
+            {% endfor %}
+            {% if exp.technologies %}
+                <p class="technologies"><strong>Technologies:</strong> {{ exp.technologies }}</p>
+            {% endif %}
         </div>
     {% endfor %}
 </section>
