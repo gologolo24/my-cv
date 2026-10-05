@@ -1,5 +1,5 @@
 name: Lejb Golovatyi
-title: DevOps Engineer
+title: Senior DevOps Engineer
 support_dark_mode: true
 
 # Sidebar
@@ -47,6 +47,7 @@ skills:
       - ArgoCD
       - Terraform
       - Helm
+      - Grafana, Prometheus, Elastic, Filebeat
       
   - category: Script Language
     skill:
@@ -58,7 +59,7 @@ profile: |
 
 # Experience
 experience:
-  - role: DevOps Engineer
+  - role: Senior DevOps Engineer
     time: 2022-present
     company: Develeap
     summary: Develeap is a leading technology company that specializes in providing expert DevOps consulting services.
@@ -73,7 +74,9 @@ experience:
             description: Moved part of the infrastructure from on-prem to the cloud.
           - category: Cloud Agnostic Deployments
             description: Refactored the Helm chart to be cloud agnostic.
-        technologies: Terraform, Kubernetes, Helm, AWS, Azure, Ansible, Jenkins
+          - category: Monitoring & Logging
+            description: Built monitoring, logging and alerting for the new environment.
+        technologies: Terraform, Kubernetes, Helm, AWS, Azure, Ansible, Jenkins, Elastic, Prometheus, Grafana
 
       - name: Flexor
         time: 10/24-12/25
