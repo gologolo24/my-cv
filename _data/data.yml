@@ -22,40 +22,39 @@ education:
   - degree: BSc in Computer Science
     time: 2018-2022
     university: Jerusalem College of Technology
-    
+
 certificates:
-   - hobby: AWS SAP and SAA
-   - hobby: GCP Cloud Engineer
-   - hobby: CKA
+   - hobby: AWS Solutions Architect – Professional & Associate
+   - hobby: Google Cloud Associate Cloud Engineer
+   - hobby: Certified Kubernetes Administrator (CKA)
    - hobby: HashiCorp Terraform Associate
    - hobby: GitOps at Scale certificate
-   - hobby: Github Action
+   - hobby: GitHub Actions certification
 
 skills:
   - category: Cloud
     skill:
-      - GCP
-      - AWS
-      - Azure
+      - Google Cloud (GCP)
+      - Amazon Web Services (AWS)
+      - Microsoft Azure
 
   - category: DevOps Tools
     skill:
-      - Docker
-      - Kubernetes
+      - "AI: Claude Code"
+      - Docker, Kubernetes (K8s), Helm
+      - "CI/CD: GitHub Actions, Azure DevOps, Jenkins"
+      - "GitOps: ArgoCD"
+      - "IaC: Terraform, Ansible"
+      - "Observability: Prometheus, Grafana, ELK / Elasticsearch, Filebeat"
       - Prefect
-      - Github Action, Azure Devops, Jenkins
-      - ArgoCD
-      - Terraform
-      - Helm
-      - Grafana, Prometheus, Elastic, Filebeat
-      
+
   - category: Script Language
     skill:
-      - Python Bash
+      - Python, Bash, PowerShell
 
 # Profile
-profile: | 
-   Innovative DevOps Engineer dedicated to optimizing cloud infrastructure and CI/CD pipelines. I leverage GitOps and smart automation to simplify delivery, empower development teams, and build scalable, secure solutions.
+profile: |
+   Senior DevOps Engineer dedicated to optimizing cloud infrastructure (AWS, GCP, Azure) and CI/CD pipelines. I leverage Kubernetes, GitOps, Infrastructure as Code and smart automation to simplify delivery, empower development teams, and build scalable, secure, observable solutions.
 
 # Experience
 experience:
@@ -66,54 +65,54 @@ experience:
     customers:
       - name: MDClone
         time: 01/26-09/26
-        summary: Modernized the infrastructure by moving workloads from on-prem to the cloud and making deployments portable across cloud providers.
+        summary: Modernized the infrastructure by moving workloads from on-prem to the cloud and making deployments portable across cloud providers, leveraging AI-assisted development to accelerate delivery.
         achievements:
           - category: AWS Infrastructure
-            description: Built a new production environment in AWS.
+            description: Built a new production environment in AWS using Terraform (IaC).
           - category: Cloud Migration
             description: Moved part of the infrastructure from on-prem to the cloud.
           - category: Cloud Agnostic Deployments
-            description: Refactored the Helm chart to be cloud agnostic.
+            description: Refactored Kubernetes Helm charts to be cloud agnostic (AWS / Azure).
           - category: Monitoring & Logging
-            description: Built monitoring, logging and alerting for the new environment.
-        technologies: Terraform, Kubernetes, Helm, AWS, Azure, Ansible, Jenkins, Elastic, Prometheus, Grafana
+            description: Built monitoring, logging and alerting for the new environment using Prometheus, Grafana and the ELK stack.
+        technologies: Terraform, Kubernetes, Helm, AWS, Azure, Ansible, Jenkins, Elasticsearch, Prometheus, Grafana, Claude Code
 
       - name: Flexor
         time: 10/24-12/25
-        summary: Streamlined deployment lifecycles by implementing GitOps methodologies and refactoring CI/CD pipelines to enhance scalability, reduce costs, and accelerate delivery.
+        summary: Streamlined deployment lifecycles by implementing GitOps methodologies and refactoring CI/CD pipelines to enhance scalability, reduce costs, and accelerate delivery, using AI-assisted development.
         achievements:
           - category: Kubernetes & Cloud
-            description:  Managed GCP GKE clusters across Dev and Production environments. Optimized Node Pool configurations and autoscaling strategies, resulting in a 30% reduction in cloud infrastructure costs. 
+            description: Managed Google Kubernetes Engine (GKE) clusters across Dev and Production environments. Optimized Node Pool configurations and autoscaling strategies, resulting in a 30% reduction in cloud infrastructure costs.
           - category: GitOps Transition
-            description: Modernized the deployment engine by replacing legacy kubectl apply scripts with ArgoCD. Developed modular Helm charts to standardize application packaging and improve release reliability
+            description: Modernized the deployment engine by replacing legacy kubectl apply scripts with Argo CD (GitOps). Developed modular Helm charts to standardize application packaging and improve release reliability.
           - category: CI/CD
-            description:  Engineered high-performance workflows that reduced build times by 50%. Achieved this through Docker image multi-stage build optimizations, advanced caching strategies, and logic refactoring.
+            description: Engineered high-performance GitHub Actions workflows that reduced build times by 50%. Achieved this through Docker image multi-stage build optimizations, advanced caching strategies, and logic refactoring.
           - category: Infrastructure as Code
-            description: Led a full-scale refactor of environment provisioning using Terraform
+            description: Led a full-scale refactor of environment provisioning using Terraform.
           - category: System Architecture
-            description: Redesigned deployment for Prefect flows and modal containers. Introduced a dedicated Integration environment to facilitate rigorous pre-merge testing, ensuring higher code quality in the main branch.
-        technologies: Terraform, Kubernetes, ArgoCD, Helm, Prefect, Modal, GCP, GitHub Actions
+            description: Redesigned deployment for Prefect flows and Modal containers. Introduced a dedicated Integration environment to facilitate rigorous pre-merge testing, ensuring higher code quality in the main branch.
+        technologies: Terraform, Kubernetes, ArgoCD, Helm, Prefect, Modal, GCP, GitHub Actions, Claude Code
 
       - name: RRSystems
         time: 10/23-09/24
-        summary: Designed and implemented a robust DevOps infrastructure for a .NET project hosted on an IIS server.
+        summary: Designed and implemented a robust DevOps infrastructure for a .NET project hosted on a Windows IIS server.
         achievements:
           - category: CI/CD Automation
             description: Developed a CI/CD pipeline in Azure DevOps, reducing deployment time and improving reliability.
           - category: Containerization
-            description:  Dockerized all microservices, ensuring scalability and consistent development environments.
+            description: Dockerized all microservices, ensuring scalability and consistent development environments.
           - category: Git Strategy
             description: Implemented a semantic versioning strategy in Git to improve release management.
-        technologies: Docker Compose, Powershell, .DotNet, Bash, Azure DevOps, Docker
+        technologies: Docker Compose, PowerShell, .NET, Bash, Azure DevOps, Docker
 
       - name: XwinSys
         time: 10/22-09/23
-        summary: Developed a comprehensive DevOps infrastructure that included several CI/CD pipelines for automating build, test, and deployment processes in OnPrem environmnet
+        summary: Developed a comprehensive DevOps infrastructure that included several CI/CD pipelines for automating build, test, and deployment processes in an on-premises environment.
         achievements:
           - category: CI/CD Implementation
             description: Set up CI/CD pipelines with Docker, streamlining deployments.
           - category: Git Strategy
-            description:  Established Git workflows, improving versioning and collaboration.
+            description: Established Git workflows, improving versioning and collaboration.
           - category: Problem Resolution
             description: Resolved critical technology issues, ensuring smooth operations.
-        technologies: .NET,  Azure Devops, Docker
+        technologies: .NET, Azure DevOps, Docker
